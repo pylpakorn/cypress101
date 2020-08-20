@@ -10,17 +10,23 @@ describe('sfCinema reserve ticket testing success case', () => {
     })
     it('Choose Movie and Cinema', () => {
         cy.wait(2000)
+        // choose cinema
         cy.get('[class="button dropdown-button"]').first().click()
         cy.get('a').contains('เอส เอฟ เอ็กซ์ ซีเนม่า เซ็นทรัล พลาซา ลาดพร้าว ').click()
+        // choose movie
         cy.get('[class="button dropdown-button"]').last().click()
         cy.get('h3').contains('ฝ่านรกซอมบี้คลั่ง').click()
         cy.wait(2000)
+        // click showtime
         cy.get('[class="button showtime-button"]').click()
         cy.wait(2000)
     })
     it('Choose showtime', () => {
         // TEST ON TUESDAY 18Aug20
+
+        // choose date
         cy.get('[data-slick-index="1"]').find('h1').contains('พุธ').click()
+        // choose time
         cy.get('[class="button button-showtime"]').contains('19:50').click()
     })
     it('Choose seat', () => {

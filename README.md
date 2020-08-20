@@ -1,4 +1,5 @@
 # cypress101
+Getting started with [cypress](https://www.cypress.io/)
 
 ## prerequisite
 - Node.js: download at https://nodejs.org/en/download/

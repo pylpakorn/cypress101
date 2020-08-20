@@ -1,7 +1,7 @@
-# cypress101
+# Cypress101
 Getting started with [cypress](https://www.cypress.io/)
 
-## prerequisite
+## Prerequisite
 - Node.js: download at https://nodejs.org/en/download/
 - Visual Studio Code: download at https://code.visualstudio.com/download
 

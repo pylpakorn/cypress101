@@ -15,3 +15,12 @@ install [@bahmutov/cy-api](https://www.npmjs.com/package/@bahmutov/cy-api) for c
 ```bash
 npm install --save-dev @bahmutov/cy-api
 ```
+## Open Cypress testrunner
+```bash
+npx cypress open
+```
+
+## Run Cypress in CLI
+```bash
+npx cypress run
+```

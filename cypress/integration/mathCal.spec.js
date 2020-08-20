@@ -14,7 +14,7 @@ describe('MathCalculator Test', function () {
         cy.get(`input[name=${number[num1]}]`).click()
         cy.get(`input[name=${operator[0]}]`).click()
         cy.get(`input[name=${number[num2]}]`).click()
-        cy.doIt("DoIt")
+        cy.get(`input[name="DoIt"]`).click()
         cy.get(`input[name="Input"]`).should('have.value', num1 + num2)
         cy.wait(3000)   // wait for see result
         // cy.get('input[name="clear"]').click()  --> use afterEach() instead
